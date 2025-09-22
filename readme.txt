@@ -4,8 +4,6 @@ A responsive and modern Real Estate Website built with HTML, CSS, and JavaScript
 This project showcases property listings, search functionality, and a clean user-friendly interface for exploring real estate offerings.
 
 
----
-
 🚀 Features
 
 📱 Responsive Design – works seamlessly across desktop, tablet, and mobile.
@@ -18,9 +16,6 @@ This project showcases property listings, search functionality, and a clean user
 
 🌐 Static Frontend Project – no backend; data can be extended using JSON or APIs.
 
-
-
----
 
 🛠️ Tech Stack
 
@@ -39,10 +34,6 @@ Integrate with a real estate API for live listings.
 Add authentication for agents and users.
 
 Implement map integration (Google Maps or Leaflet.js).
-
-
-
----
 
 
 👨‍💻 Author
