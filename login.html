@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login</title>
+</head>
+<body>
+    <form class="my-form" aria-labelledby="login-title">
+        <div class="login-welcome-row">
+            <a href="#" title="Logo">
+                <img src="./img/logo.png" alt="Logo" class="logo">
+            </a>
+            <h1 id="login-title">Welcome back &#x1F44F;</h1>
+            <p>Please enter your details!</p>
+        </div>
+        <div class="input__wrapper">
+            <input type="email" id="email" name="email" class="input__field" placeholder="Your Email" required>
+            <label for="email" class="input__label">
+                Email:
+            </label>
+            <!-- svg icon --> 
+        </div>
+            <input id="password" type="password" class="input__field" placeholder="Your Password" title="Minimum 6 characters at least 1 Alphabet, 1 Number and 1 Symbol" pattern="^(?=.*[A-Za-z])(?=,\d)(?=.*[\W_])[A-Za-z\d\w_]{6,}$" required>
+            <label for="password" class="input__label">
+                Password:
+            </label>
+            <!-- svg icon --> 
+        </div>
+        <button type="submit" class="my-form__button" aria-label="Submit login form">
+            Login
+        </button>
+        <div class="my-form__actions">
+            <div class="my-form__row">
+                <span>Did you forget your password?</span>
+                <a href="Reset Password" aria-label="Reset your Password">Reset Password</a>
+            </div>
+        </div>
+        <div class="socials-row">
+            <a href="#" title="Use Google">
+                <img src="./img/google images.png" alt="Google">
+                Log in With Google
+            </a>
+        </div>
+        <div class="my-form__actions">
+            <div class="my-form__row">
+               <span>Don't have an account?</span>
+                <a href="#" title="Create an Account">
+                    Sign Up
+                </a> 
+            </div> 
+        </div>
+        <div class="info-side">
+        <img src="assets/mock.png" alt="Mock" aria-hidden="true">
+        <div class="Welcome-message">
+            <h2>ILE AYO! &#x1F44F;</h2>
+            <P>
+                Your ultimate guide to getting your perfect home and an environment that brings peace 
+            </P>
+        </div>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
